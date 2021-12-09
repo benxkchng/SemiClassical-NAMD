@@ -84,6 +84,6 @@ def initR():
     R = np.zeros(( ndof ))
     P = np.zeros(( ndof ))
     for d in range(ndof):
-        R[d] = np.random.normal()*sigR[d]  
+        R[d] = np.random.normal()*sigR[d] 
         P[d] = np.random.normal()*sigP[d]  
     return R, P

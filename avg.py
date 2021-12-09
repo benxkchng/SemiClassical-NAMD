@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+#SBATCH -p action
 import sys
 import numpy as np
 from glob import glob

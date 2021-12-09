@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 #SBATCH -o output.log
-#SBATCH -t 1:00:00
+#SBATCH -t 5:00:00
+#SBATCH -p action
 
 import sys, os
 

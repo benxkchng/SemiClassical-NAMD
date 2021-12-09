@@ -1,7 +1,7 @@
-Model                = morse1
-Method               = nrpmd-5
+Model                = level_nphoton_opt
+Method               = mfe_polariton
 
 System               = slurm
-Nodes                = 20
-Cpus                 = 4
-Partition            = et3    
+Nodes                = 4
+Cpus                 = 24
+Partition            = action
